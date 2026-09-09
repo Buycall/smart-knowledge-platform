@@ -1,0 +1,34 @@
+@import "tailwindcss";
+
+@font-face {
+    font-family: "Vazirmatn";
+    src: url("../assets/fonts/Vazirmatn/Vazirmatn-VariableFont_wght.ttf");
+    font-weight: 100 900;
+}
+
+@font-face {
+    font-family: "Manrope";
+    src: url("../assets/fonts/Manrope/Manrope-VariableFont_wght.ttf");
+    font-weight: 100 900;
+}
+
+
+@theme {
+    /* Colors */
+  --color-primary: #6861e8;
+  --color-accent: #945ef1;
+  --color-background: #e3ebf3;
+  --color-surface: #ffffff;
+  --color-text-primary: #1e2b4f;
+  --color-text-secondary: #475569;
+  --color-border: #95b1cf;
+  --color-primary-hover: #5751D6;
+    /* Fonts */
+  --font-vazirmatn: "Vazirmatn", sans-serif;
+  --font-manrope: "Manrope", sans-serif;
+    /* font-size */
+  --text-heading-lg: 2rem;
+  --text-heading-lg--line-height: 2rem; 
+  --text-heading-lg--letter-spacing: 0.0625rem; 
+  --text-heading-lg--font-weight: 700;
+}
